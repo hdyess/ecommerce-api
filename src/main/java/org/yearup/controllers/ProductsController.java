@@ -84,7 +84,7 @@ public class ProductsController
             // i know he's not real but i'm still puzzled at the guy who wrote this
             // i mean it doesn't even use the other parameter
             // and the annotation is put not post
-            productDao.create(product);
+            productDao.update(id, product);
         }
         catch(Exception ex)
         {
